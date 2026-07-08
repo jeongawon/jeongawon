@@ -129,6 +129,62 @@ ECG · 흉부 X-ray · 혈액검사 · 임상기록을 각각 독립 AI 서비�
 
 </details>
 
+## `$ cat aws-architecture.md`
+
+**EMON Med의 AWS Multi-AZ 클라우드 네이티브 풀스택 아키텍처를 직접 설계·구축**했습니다 — `ap-northeast-2`(서울), 2개 AZ, Public/Private App/Private Data 3-tier 서브넷, VPC Endpoints(PrivateLink) 기반 프라이빗 통신. 아래 서비스 전부를 실제 프로젝트에서 구성·운영했습니다.
+
+<div align="center">
+
+<img src="assets/emon-med-architecture.png" width="100%" alt="EMON Med AWS Multi-AZ Architecture" />
+
+</div>
+
+**Edge / CDN / DNS**
+
+![Route 53](https://img.shields.io/badge/Amazon_Route_53-2DD4BF?style=flat-square&labelColor=161B22)
+![CloudFront](https://img.shields.io/badge/Amazon_CloudFront-2DD4BF?style=flat-square&labelColor=161B22)
+![WAF](https://img.shields.io/badge/AWS_WAF-2DD4BF?style=flat-square&labelColor=161B22)
+![ALB](https://img.shields.io/badge/Application_Load_Balancer-2DD4BF?style=flat-square&labelColor=161B22)
+
+**Compute / Containers**
+
+![ECS](https://img.shields.io/badge/Amazon_ECS-5EEAD4?style=flat-square&labelColor=161B22)
+![Fargate](https://img.shields.io/badge/AWS_Fargate-5EEAD4?style=flat-square&labelColor=161B22)
+![ECR](https://img.shields.io/badge/Amazon_ECR-5EEAD4?style=flat-square&labelColor=161B22)
+![EC2](https://img.shields.io/badge/Amazon_EC2-5EEAD4?style=flat-square&labelColor=161B22)
+
+**AI / ML**
+
+![Bedrock](https://img.shields.io/badge/Amazon_Bedrock_(Claude)-2DD4BF?style=flat-square&labelColor=161B22)
+![Titan](https://img.shields.io/badge/Titan_v2_Embedding-2DD4BF?style=flat-square&labelColor=161B22)
+
+**Networking / Service Discovery**
+
+![VPC](https://img.shields.io/badge/Amazon_VPC-5EEAD4?style=flat-square&labelColor=161B22)
+![PrivateLink](https://img.shields.io/badge/VPC_Endpoints_PrivateLink-5EEAD4?style=flat-square&labelColor=161B22)
+![Cloud Map](https://img.shields.io/badge/AWS_Cloud_Map-5EEAD4?style=flat-square&labelColor=161B22)
+![S3 Gateway](https://img.shields.io/badge/S3_Gateway_Endpoint-5EEAD4?style=flat-square&labelColor=161B22)
+
+**Data / Storage**
+
+![Aurora](https://img.shields.io/badge/Aurora_Serverless_v2_(PostgreSQL)-2DD4BF?style=flat-square&labelColor=161B22)
+![S3](https://img.shields.io/badge/Amazon_S3-2DD4BF?style=flat-square&labelColor=161B22)
+![ChromaDB](https://img.shields.io/badge/ChromaDB_on_S3_(RAG)-2DD4BF?style=flat-square&labelColor=161B22)
+
+**Security / Identity**
+
+![Cognito](https://img.shields.io/badge/Amazon_Cognito-5EEAD4?style=flat-square&labelColor=161B22)
+![IAM](https://img.shields.io/badge/IAM_Roles-5EEAD4?style=flat-square&labelColor=161B22)
+![Secrets Manager](https://img.shields.io/badge/AWS_Secrets_Manager-5EEAD4?style=flat-square&labelColor=161B22)
+![KMS](https://img.shields.io/badge/AWS_KMS-5EEAD4?style=flat-square&labelColor=161B22)
+
+**Observability / IaC**
+
+![CloudWatch](https://img.shields.io/badge/Amazon_CloudWatch-2DD4BF?style=flat-square&labelColor=161B22)
+![SNS](https://img.shields.io/badge/Amazon_SNS_Email_SMS-2DD4BF?style=flat-square&labelColor=161B22)
+![Flow Logs](https://img.shields.io/badge/VPC_Flow_Logs-2DD4BF?style=flat-square&labelColor=161B22)
+![CloudFormation](https://img.shields.io/badge/AWS_CloudFormation_(IaC)-2DD4BF?style=flat-square&labelColor=161B22)
+
 ## `$ cat experience.log`
 
 **🎓 성균관대 AWS 바이오헬스케어 부트캠프 (SAY 2기)** · `2025.12 – 2026.05` · 수료
