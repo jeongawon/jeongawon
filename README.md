@@ -93,6 +93,8 @@ seeking  : Medical AI Engineer / ML Engineer / AI Research Engineer
 **▶️ 시연 영상 (Demo Video)**
 
 
+https://github.com/user-attachments/assets/aecfa530-7a8b-40a1-bcdf-0acaa1fc43ab
+
 
 ECG · 흉부 X-ray · 혈액검사 · 임상기록을 각각 독립 AI 서비스로 분석하고, 중앙 오케스트레이터가 환자 단위로 취합한 뒤 **RAG + Bedrock(LLM)** 으로 최종 임상 소견서를 생성하는 **AWS 클라우드 네이티브 멀티모달 AI 시스템**.
 
