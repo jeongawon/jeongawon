@@ -1,4 +1,3 @@
-## Hi there 👋
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0B1220,100:2DD4BF&height=220&section=header&text=Wonjeong%20A&fontSize=58&fontColor=E6EDF3&fontAlignY=42&desc=Medical%20AI%20Engineer%20%C2%B7%20LLM%2FRAG%20%C2%B7%20AWS%20Cloud-Native&descSize=18&descAlignY=62" width="100%" alt="banner" />
@@ -90,6 +89,10 @@ seeking  : Medical AI Engineer / ML Engineer / AI Research Engineer
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-5EEAD4?style=flat-square&labelColor=161B22)](https://d2qg6vlw6822wh.cloudfront.net)
 [![Repo](https://img.shields.io/badge/GitHub-AWS--EMON--Medical--Project-2DD4BF?style=flat-square&logo=github&logoColor=0B1220&labelColor=161B22)](https://github.com/jeongawon/AWS-EMON-Medical-Project)
+
+**▶️ 시연 영상 (Demo Video)**
+
+
 
 ECG · 흉부 X-ray · 혈액검사 · 임상기록을 각각 독립 AI 서비스로 분석하고, 중앙 오케스트레이터가 환자 단위로 취합한 뒤 **RAG + Bedrock(LLM)** 으로 최종 임상 소견서를 생성하는 **AWS 클라우드 네이티브 멀티모달 AI 시스템**.
 
