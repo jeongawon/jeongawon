@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0B1220,100:2DD4BF&height=220&section=header&text=Won Jeong%20A&fontSize=58&fontColor=E6EDF3&fontAlignY=42&desc=Medical%20AI%20Engineer%20%C2%B7%20LLM%2FRAG%20%C2%B7%20AWS%20Cloud-Native&descSize=18&descAlignY=62" width="100%" alt="banner" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0B1220,100:2DD4BF&height=220&section=header&text=Won%20Jeong%20A&fontSize=58&fontColor=E6EDF3&fontAlignY=42&desc=Medical%20AI%20Engineer%20%C2%B7%20LLM%2FRAG%20%C2%B7%20AWS%20Cloud-Native&descSize=18&descAlignY=62" width="100%" alt="banner" />
 
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=2DD4BF&center=true&vCenter=true&width=820&height=120&lines=%24+whoami+%E2%86%92+Medical+AI+Engineer;%24+cat+stack.txt+%E2%86%92+PyTorch+%7C+Mamba%2FS6+%7C+LLM%2FRAG+%7C+AWS;%24+.%2Fdeploy+EMON-Med+--role+team-lead+--auroc+0.814;%24+echo+%22Turning+research+models+into+reliable+services%22" alt="typing" />
