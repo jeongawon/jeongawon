@@ -31,7 +31,7 @@
 
 ```bash
 $ cat profile.yaml
-name     : Wonjeong A (원정아)
+name     : Won Jeong A (원정아)
 role     : AI Engineer  ·  Medical AI / Multimodal / LLM·RAG
 career   : SKKU AWS Bio-Healthcare Bootcamp (SAY 2nd)  ·  Team Lead
 domain   : Medical imaging & signal analysis, clinical decision support
